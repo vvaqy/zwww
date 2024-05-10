@@ -27,6 +27,7 @@ on:
 env:
   REGION_ID: me-central-1
   REGISTRY: cr.me-central-1.aliyuncs.com
+  endpoint: cr.me-central-1.aliyuncs.com
   NAMESPACE: zww_backimages
   IMAGE: repo
   TAG: ${{ github.sha }}
